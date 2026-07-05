@@ -8,6 +8,7 @@
     --shadow-color: rgb(0, 0, 0);
     --showcase-gap: 30px;
 
+    overflow-x: hidden;
     font-size: var(--font-size);
 }
 
