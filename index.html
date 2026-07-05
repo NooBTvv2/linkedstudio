@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta data -->
+
+
+    <!-- end of meta data -->
+
+    <title>Linked Studios - Home</title>
+
+    <link rel="icon" href="Images/logos/logo.webp" type="image/webp">
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="animation-styles.css">
+    <link rel="stylesheet" href="background-framework.css">
+
+    <script type="text/javascript" src="boots/jquery.js" defer></script>
+    <script type="text/javascript" src="content.js" defer></script>
+    <script type="text/javascript" src="function.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="Images/logos/logo.webp" alt="linked-studioslogo">
+            <p>Linked <span>Studios</span></p>
+        </div>
+
+        <button id="nav-ham" class="nav-toggle">&#9776;</button>
+
+        <div id="nav-links" class="links" data-isopen=false>
+            <a class="cex-but" href="#intro" draggable="false">Home</a>
+            <a class="cex-but" href="#about-us" draggable="false">About Us</a>
+            <a class="cex-but" href="#experiences-container" draggable="false">Experiences</a>
+            <a class="cex-but" href="#contact" draggable="false">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <article id="intro" class="shadow">
+            <h1>Linked Studios</h1>
+            <p>Welcome to Linked Studios, where we create immersive and engaging game experiences!</p>
+            <button class="cex-but">See our works!</button>
+
+            <div class="container">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+            </div>
+        </article>
+
+        <article id="about-us" class="shadow">
+            <section>
+                <img src="Images/logos/logo.webp" alt="linked-studioslogo">
+                <h2>About Us</h2>
+                <p>We are a passionate game development studio dedicated to creating immersive and engaging experiences,
+                    as
+                    well as lending our skills to various projects.</p>
+            </section>
+
+            <div class="cascade-container">
+                <img src="Images/GameImages/AR.webp" alt="" draggable="false">
+                <img src="Images/GameImages/BW.webp" alt="" draggable="false">
+                <img src="Images/GameImages/FNH.webp" alt="" draggable="false">
+            </div>
+
+        </article>
+
+        <article class="showcase">
+            <h2>We have Contributed...</h2>
+            <h1><span>421M+</span> Visits</h1>
+
+            <section id="contributions-container"></section>
+        </article>
+
+        <article class="showcase">
+            <h2>Our Very own Experiences!</h2>
+
+            <section id="experiences-container">
+                <div class="cd" style="background-image: url(Images/GameImages/Descent.png);">
+                    <h2>Tower of Descent</h2>
+                    <p>IP is Work in Progress</p>
+
+                    <a href=""></a>
+                    <img src="Images/logos/logo.webp" alt="linked-studioslogo">
+                </div>
+            </section>
+        </article>
+
+        <article id="contact" class="info-dump">
+            <h1>Our Services</h1>
+            <p>Linked Studios, has helped many studios in developing assets for their games. We’ve grown creator
+                experiences from the ground up, increased stable CCU, and built frameworks that thrive within Roblox's
+                shifting algorithm</p>
+
+            <button class="cex-but">Learn More</button>
+            <button class="cex-but">Contact Us</button>
+        </article>
+    </main>
+
+    <footer>
+        © 2026 Linked Studios. All rights reserved.
+    </footer>
+</body>
+
+</html>

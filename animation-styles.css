@@ -1,0 +1,57 @@
+
+
+.cex-but:hover {
+    color: black;
+    scale: 1.15;
+
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.4);
+}
+
+.cex-but:hover::before {
+    scale: 3;
+}
+
+.cd:hover::before {
+    opacity: 1;
+    transform: rotateX(100deg);
+}
+
+.cd:hover h2 {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.cd:hover p {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.cd:hover {
+    transform: scale(1.1);
+}
+
+.nav-toggle:checked~.links {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .links a:hover {
+        background-color: var(--main-color);
+        color: black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .links a:hover::before {
+        transform: scaleX(1);
+    }
+
+    .links a:hover {
+        color: black;
+        padding-left: 20%;
+
+        z-index: 2;
+        backdrop-filter: blur(15px);
+    }
+
+}
