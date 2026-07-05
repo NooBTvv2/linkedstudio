@@ -36,8 +36,6 @@ h1, h2 {
     text-shadow: 0 0 0.2em currentColor;
 }
 
-/* Navigations */
-
 nav {
     position: sticky;
     top: 0px;
